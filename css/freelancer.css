@@ -114,16 +114,16 @@ header .intro-text .skills {
     transition: padding 0.3s;
   }
   .navbar-fixed-top .navbar-brand {
-    font-size: 1em;
+    font-size: 0.9em;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
   }
   .navbar-fixed-top.navbar-shrink {
-    padding: 5px 0;
+    padding: 10px 0;
   }
   .navbar-fixed-top.navbar-shrink .navbar-brand {
-    font-size: 0.9em;
+    font-size: 0.8em;
   }
 }
 @media (min-width: 768px) {
