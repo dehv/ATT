@@ -106,6 +106,26 @@ header .intro-text .skills {
     font-size: 1.75em;
   }
 }
+@media (max-width: 385px) {
+    .navbar-fixed-top {
+    padding: 15px 0;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+  }
+  .navbar-fixed-top .navbar-brand {
+    font-size: 1em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .navbar-fixed-top.navbar-shrink {
+    padding: 5px 0;
+  }
+  .navbar-fixed-top.navbar-shrink .navbar-brand {
+    font-size: 0.9em;
+  }
+}
 @media (min-width: 768px) {
   .navbar-fixed-top {
     padding: 25px 0;
