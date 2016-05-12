@@ -175,6 +175,9 @@ section h2 {
   margin: 0;
   font-size: 3em;
 }
+#about p {
+    text-align: justify;
+}
 section.success {
   background: #F39C12;
   color: white;
